@@ -1,0 +1,33 @@
+{
+  "name": "hf-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot using baileys library.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hidden-Finder/HF-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hidden-Finder/HF-Bot/issues"
+  },
+  "homepage": "https://github.com/Hidden-Finder/HF-Bot#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-fetch": "^3.2.10",
+    "@adiwajshing/baileys": "github:nugraizy/baileys"
+  },
+  "devDependencies": {
+    "@hapi/boom": "^9.1.4",
+		"eslint": "^8.23.0",
+		"jimp": "^0.16.1",
+		"pino": "^7.6.5",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
