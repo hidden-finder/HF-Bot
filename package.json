@@ -19,15 +19,18 @@
   },
   "homepage": "https://github.com/Hidden-Finder/HF-Bot#readme",
   "dependencies": {
+    "@adiwajshing/baileys": "github:nugraizy/baileys",
     "axios": "^0.27.2",
-    "node-fetch": "^3.2.10",
-    "@adiwajshing/baileys": "github:nugraizy/baileys"
+    "fs-extra": "^10.1.0",
+    "meow": "^10.1.5",
+    "node-fetch": "^3.2.10"
   },
   "devDependencies": {
     "@hapi/boom": "^9.1.4",
-		"eslint": "^8.23.0",
-		"jimp": "^0.16.1",
-		"pino": "^7.6.5",
+    "@types/node": "^18.8.2",
+    "eslint": "^8.23.0",
+    "jimp": "^0.16.1",
+    "pino": "^7.6.5",
     "qrcode-terminal": "^0.12.0"
   }
 }

@@ -1,19 +1,24 @@
-export default GlobalConfig = {
+import { EventEmitter } from 'events';
+
+const GlobalConfig = {
 	cmds: {},
 	cache: {},
+	cli: {},
+	options: {},
 	isFirstConnection: false,
-	packname: 'Made by Void',
+	packname: 'Made by Nanda',
 	author: 'Powered by Hidden Finder',
 	commandsPath: [],
 	log: console.log,
 };
 
-config.cmds.commands = new Map();
-config.cmds.aliases = [];
-
-config.cache.metadata = new Map();
-config.cache.settings = new Map();
-config.cache.users = new Map();
-config.cache.interval = new Map();
+GlobalConfig.cmds.aliases = [];
+GlobalConfig.cmds.commands = new Map();
+GlobalConfig.cache.metadata = new Map();
+GlobalConfig.cache.settings = new Map();
+GlobalConfig.cache.users = new Map();
+GlobalConfig.cache.interval = new Map();
 
 EventEmitter.prototype.setMaxListeners(0);
+
+export default GlobalConfig;
